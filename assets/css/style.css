@@ -83,9 +83,9 @@ li {
 	color: white;
 }
 
-hr {
+/*.hori {
 	width: 	60%;
-	border-top: 2px solid #b4b4b4;
+	border-top: 2px solid #b4b4b4;*/
 
 }
 
@@ -194,6 +194,13 @@ hr {
 	position: relative;
 	z-index: 7;
 }
+
+#forms {
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 10px;
+}
+
 .form-group {	
 	margin: 5px 0px;
 }
@@ -207,7 +214,7 @@ iframe {
 /*FOOTER*/
 #footer {
 	margin-top: 10px;
-	padding: 5px;	
+	padding: 20px;	
 	text-align: center;
 	background-color: rgba(255,255,255,0.4);
 	border-radius: 1%;
@@ -217,7 +224,8 @@ iframe {
 }
 .social a {
 	font-size: 1.5em;
-	padding: 0rem 1rem;
+	padding: 1rem 1rem;
+	margin-top: 100px;
 }
 .fa-facebook-square,
 .fa-twitter,
@@ -244,8 +252,8 @@ iframe {
 
 .socialine {	
 	margin: 0;
-	width: 	60%;
-	border-top: 2px solid #b4b4b4;
+	/*width: 	60%;
+	border-top: 2px solid #b4b4b4;*/
 }
 
 #abouttitle, #projectstitle, #skillstitle, #connecttitle {
@@ -302,8 +310,15 @@ iframe {
 		margin: 0 auto;
 	}
 	#addy  {
-		font-size: 80%;
+		font-size: 60%;
 	}
+
+	.social a {
+	font-size: 1.5em;
+	padding: 1rem .5rem;
+	margin-top: 120px;
+	}
+
 	#abouttitle, #projectstitle, #skillstitle, #connecttitle {
 		font-size: 180%;
 	}
@@ -338,7 +353,7 @@ iframe {
 		margin: 0 auto;
 	}
 	#addy  {
-		font-size: 80%;
+		font-size: 60%;
 	}
 	#abouttitle, #projectstitle, #skillstitle, #connecttitle {
 		font-size: 190%;
